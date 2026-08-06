@@ -1,0 +1,31 @@
+<!-- Plugin Configuration File. Read more: https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html -->
+<idea-plugin>
+    <id>dev.gaphunter.materialcompanion</id>
+    <name>Material Companion</name>
+    <vendor>Gap Hunter Labs</vendor>
+    <description><![CDATA[
+        <p>A Material Design-inspired dark editor color scheme -- cool
+        greys, blues, teals, and purples -- with zero forced UI
+        elements, zero paywalled customization, and zero performance
+        cost.</p>
+        <p>Built from real JetBrains Marketplace reviews of the leading
+        Material-style theme plugin (18.6M downloads, 80% of recent
+        reviews at 3 stars or fewer despite active development): an
+        intrusive floating action button added by a recent update that
+        free users cannot disable without paying ("Forcing this
+        intrusive UI element on users is a terrible design choice"),
+        repeated performance complaints ("my Idea even becomes
+        unresponsive at times"), and basic customization locked behind
+        a subscription.</p>
+        <p>Free. No license nags, no telemetry, no floating buttons, no
+        forced UI you have to pay to turn off. Turn it on the same way
+        as any built-in theme: Settings &gt; Appearance &amp; Behavior
+        &gt; Appearance.</p>
+    ]]></description>
+
+    <depends>com.intellij.modules.platform</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <bundledColorScheme path="/schemes/GapHunterMaterial"/>
+    </extensions>
+</idea-plugin>
