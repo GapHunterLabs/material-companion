@@ -60,10 +60,12 @@ stars or fewer despite active development), not assumptions:
 Settings > Appearance & Behavior > Appearance > Theme, or Editor > Color
 Scheme, and pick "Gap Hunter Material."
 
-## Enterprise / Team Licensing
+## Support
 
-Need enterprise features, custom color schemes, or team licensing?
-Contact us at **gaphunterlabs@gmail.com**.
+- **Bugs and feature requests:** [GitHub Issues](https://github.com/GapHunterLabs/material-companion/issues)
+- **Questions, or custom rules for a team's codebase:** **gaphunterlabs@gmail.com**
+- **Security vulnerabilities:** report privately as described in [SECURITY.md](SECURITY.md), not in a public issue.
+- **Privacy and network behavior:** [PRIVACY.md](PRIVACY.md)
 
 ## Development
 
